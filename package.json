@@ -1,0 +1,38 @@
+{
+  "name": "@titanium-sdk/webpack-plugin-classic",
+  "version": "0.1.0",
+  "description": "Titanium Classic Plugin for Appcd Webpack",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "titanium",
+    "webpack",
+    "classic",
+    "appcd"
+  ],
+  "author": "Axway Appcelerator",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appcelerator/webpack-plugin-classic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/appcelerator/webpack-plugin-classic/issues"
+  },
+  "homepage": "https://github.com/appcelerator/webpack-plugin-classic#readme",
+  "dependencies": {
+    "copy-webpack-plugin": "^5.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-axway": "^4.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js"
+  ]
+}
