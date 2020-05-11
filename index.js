@@ -1,4 +1,4 @@
-/* eslint indent: "off" */
+/* eslint indent: ["error", "tab", { "MemberExpression": "off" }] */
 
 const CopyPlugin = require('copy-webpack-plugin');
 
