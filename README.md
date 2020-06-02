@@ -10,11 +10,15 @@ To install this plugin in an existing project, run the following command in your
 npm i @titanium-sdk/webpack-plugin-classic
 ```
 
-Be sure to follow the migration steps below when enabling Webpack in an existing Titanium Classic project, as well as the general [migration guideline](https://github.com/appcelerator/appcd-plugin-webpack/blob/develop/migration.md).
+Be sure to follow the migration steps below as well as the general [migration guide](https://github.com/appcelerator/appcd-plugin-webpack/blob/develop/migration.md) when enabling Webpack in an existing Titanium Classic project.
 
 ## Migration
 
-Migrating a classic project is pretty straight forward. All you need to do is move your existing files from `Resources` into a new `src` directory in your project root. After that you have to
+> ⚠️ **WARNING:** The base Webpack configuration uses `clean-webpack-plugin` to _delete all files_ inside `Resources`  before a new build. Make sure you follow the instructions below and move all your files out of `Resources` before you start the first build.
+
+Migrating a classic project is pretty straight forward. All you need to do is move your existing files from `Resources` into a new `src` directory in your project root.
+
+After moving all files into `src` there are two more things to do:
 
 - Rename `app.js` to `main.js`
 - Move all non-js assets into `src/assets`.
