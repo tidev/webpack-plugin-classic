@@ -26,5 +26,5 @@ module.exports = function (api, options) {
 					}
 				]
 			]);
-	}, { after: 'built-in:config/base' });
+	}, { after: 'built-in:config/app' });
 };
