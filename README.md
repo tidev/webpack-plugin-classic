@@ -21,7 +21,7 @@ Migrating a classic project is pretty straight forward. All you need to do is mo
 After moving all files into `src` there are two more things to do:
 
 - Rename `app.js` to `main.js`
-- Move all non-js assets into `src/assets`.
+- Move all non-js assets into `src/assets`
 
 Webpack will then process and bundle all your JS files and assets and put them back into `Resources`.
 
