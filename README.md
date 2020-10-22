@@ -7,7 +7,7 @@
 To install this plugin in an existing project, run the following command in your project root:
 
 ```sh
-npm i @titanium-sdk/webpack-plugin-classic
+npm i -D @titanium-sdk/webpack-plugin-classic
 ```
 
 Be sure to follow the migration steps below as well as the general [migration guide](https://github.com/appcelerator/appcd-plugin-webpack/blob/develop/migration.md) when enabling Webpack in an existing Titanium Classic project.
