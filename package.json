@@ -27,7 +27,7 @@
     "copy-webpack-plugin": "^5.1.1"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
+    "eslint": "^7.12.1",
     "eslint-config-axway": "^5.0.0"
   },
   "publishConfig": {
