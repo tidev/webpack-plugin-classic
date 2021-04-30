@@ -8,6 +8,4 @@ updates:
   ignore:
   - dependency-name: copy-webpack-plugin
     versions:
-    - 7.0.0
-    - 8.0.0
     - 8.1.0
