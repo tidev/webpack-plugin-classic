@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/appcelerator/webpack-plugin-classic#readme",
   "dependencies": {
-    "copy-webpack-plugin": "^5.1.1"
+    "copy-webpack-plugin": "^11.0.0"
   },
   "devDependencies": {
     "eslint": "^7.12.1",
